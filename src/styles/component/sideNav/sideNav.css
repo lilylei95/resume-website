@@ -1,0 +1,17 @@
+.side-nav {
+  width: 25%;
+  height: 100%;
+  float: left; }
+
+.side-nav-item {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #158ba8;
+  border-radius: 5px;
+  margin: 10px;
+  text-decoration: none; }
+
+.side-nav-item-name {
+  text-decoration: none;
+  color: #ffffff; }
