@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import LinkedIn from "../images/linkedin.png";
 import "../styles/component/header/header.css";
 
 class header extends Component {
@@ -8,11 +9,9 @@ class header extends Component {
       <div className="header">
         <p className="website-name">
           <Link to="/" className="header-name">
-            {" "}
-            Lily Lei{" "}
+            Lily Lei
           </Link>
         </p>
-        <hr />
       </div>
     );
   }
