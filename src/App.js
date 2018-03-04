@@ -4,6 +4,7 @@ import Header from "./component/header";
 import SideNav from "./component/sideNav";
 import Home from "./component/home";
 import AboutMe from "./component/about-me";
+import FindMe from "./component/find-me";
 
 import "./styles/app.css";
 
@@ -15,6 +16,7 @@ class App extends Component {
           <div className="content">
             <Home />
             <AboutMe />
+            <FindMe />
           </div>
         </div>
       </Router>
