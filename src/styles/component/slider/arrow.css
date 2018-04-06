@@ -4,6 +4,7 @@
   position: absolute;
   top: 50%;
   right: 25px;
+  height: 6%;
   position: absolute;
 }
 
@@ -13,5 +14,6 @@
   position: absolute;
   top: 50%;
   left: 25px;
+  height: 6%;
   position: absolute;
 }

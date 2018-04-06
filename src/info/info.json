@@ -3,12 +3,17 @@
     {
       "slideNum": 0,
       "image":
-        "http://i0.kym-cdn.com/photos/images/original/001/001/203/e96.jpg"
+        "http://i0.kym-cdn.com/photos/images/original/001/001/203/e96.jpg",
+      "title": "Influential",
+      "text":
+        "Implemented small features and fixed bugs on Influential's dashboards."
     },
     {
       "slideNum": 1,
       "image":
-        "https://myanimelist.cdn-dena.com/s/common/uploaded_files/1452592123-9b59e72b12768d7a594368316feb64ee.jpeg"
+        "https://myanimelist.cdn-dena.com/s/common/uploaded_files/1452592123-9b59e72b12768d7a594368316feb64ee.jpeg",
+      "title": "TEST 2",
+      "text": "test 2"
     }
   ]
 }

@@ -8,14 +8,17 @@ import SlideInfo from "../info/info.json";
 class Slider extends Component {
   componentDidMount() {
     this.setState({ totalSlide: SlideInfo.projects.length });
-    setInterval(this.nextSlide, 5000);
+    if (this.state.autoPlay) {
+      setInterval(this.nextSlide, 5000);
+    }
   }
   constructor(props) {
     super(props);
 
     this.state = {
       slideCount: 0,
-      totalSlide: 0
+      totalSlide: 0,
+      autoPlay: false
     };
 
     this.nextSlide = this.nextSlide.bind(this);
