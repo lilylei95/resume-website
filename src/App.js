@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import SideNav from "./component/sideNav";
+import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./component/home";
 import AboutMe from "./component/about-me";
+import Projects from "./component/projects";
 
 import "./styles/app.css";
 
@@ -14,6 +14,7 @@ class App extends Component {
           <div className="content">
             <Home />
             <AboutMe />
+            <Projects />
           </div>
         </div>
       </Router>

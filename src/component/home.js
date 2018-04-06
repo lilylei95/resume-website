@@ -9,7 +9,7 @@ class home extends Component {
     return (
       <div className="intro">
         <div className="background-image" />
-        <img className="profile-picture" src={profile} alt="Profile Picture" />
+        <img className="profile-picture" src={profile} alt="Profile" />
         <h1> Lily Lei </h1>
         <br />
         <hr />
