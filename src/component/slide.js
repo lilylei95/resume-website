@@ -10,10 +10,17 @@ const Slide = props => {
 
   return (
     <div style={background} className="slide">
-      <div className="slide-title">{props.slide.title}</div>
-      <div className="slide-text">{props.slide.text}</div>
+      <div className="black-mask">
+        <div className="slide-bottom">
+          <a className="slide-title" href={props.slide.link}>
+            {props.slide.title}
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
+
+// <div className="slide-text">{props.slide.text}</div>;
 
 export default Slide;

@@ -6,9 +6,32 @@
   margin: auto;
 }
 .slide-title {
-  height: 20px;
+  height: 70px;
+  font-size: 45px;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #a9a9a9;
+  font-family: Arial;
+  text-decoration: none;
 }
 
 .slide-text {
   height: 80%;
+}
+
+.black-mask {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.slide-bottom {
+  background-color: #caebf2;
+  height: 60px;
+  top: 87%;
+  position: relative;
+  margin: auto;
+  width: 30%;
+  border-radius: 15px;
 }

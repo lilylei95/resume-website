@@ -2,18 +2,15 @@
   "projects": [
     {
       "slideNum": 0,
-      "image":
-        "http://i0.kym-cdn.com/photos/images/original/001/001/203/e96.jpg",
+      "image": "https://i.imgur.com/HKLn7zG.jpg",
       "title": "Influential",
-      "text":
-        "Implemented small features and fixed bugs on Influential's dashboards."
+      "link": "https://influential.co/"
     },
     {
       "slideNum": 1,
-      "image":
-        "https://myanimelist.cdn-dena.com/s/common/uploaded_files/1452592123-9b59e72b12768d7a594368316feb64ee.jpeg",
-      "title": "TEST 2",
-      "text": "test 2"
+      "image": "https://i.imgur.com/Qgy70uv.jpg",
+      "title": "What The K-Pop",
+      "link": "http://www.whatthekpop.com/"
     }
   ]
 }

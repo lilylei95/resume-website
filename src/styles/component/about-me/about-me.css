@@ -7,26 +7,43 @@
 .about-me-background {
   height: 100%;
   width: 100%;
-  background-image: url(../../../images/about_me_background.png);
+  background-color: #efefef;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
 }
 
 .about-me-text {
-  padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  width: 63%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 17px;
+  width: 75%;
   position: relative;
+  height: 90%;
+  background-color: #caebf2;
+  top: 5%;
+}
+
+.about-me-text > p {
+  padding: 35px 25px 0px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a9a9a9;
+  font-size: 17px;
 }
 
 .about-text {
-  color: white;
-  padding-top: 50px;
+  padding: 25px 0px 25px 0px;
+  color: #a9a9a9;
   position: relative;
+}
+
+.computer-background {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/34676/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  z-index: 900;
+  margin: auto;
+  height: 80%;
+  width: 95%;
 }

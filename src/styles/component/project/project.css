@@ -1,13 +1,13 @@
 .project-container {
   position: relative;
-  background-image: url("https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?cs=srgb&dl=background-board-brown-326311.jpg&fm=jpg");
+  background-color: #caebf2;
 }
 
 .project-container-title {
   position: absolute;
-  color: white;
+  color: #a9a9a9;
   font-size: 40px;
   text-align: center;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   width: 100%;
 }
